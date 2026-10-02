@@ -114,6 +114,12 @@
   .animate-marquee { animation: marquee 40s linear infinite; }
   @media (prefers-reduced-motion: reduce) { .animate-marquee { animation: none; } }
 </style>
+
+<!-- Vercel Speed Insights -->
+<script type="module">
+  import { injectSpeedInsights } from 'https://cdn.jsdelivr.net/npm/@vercel/speed-insights@1/dist/index.mjs';
+  injectSpeedInsights();
+</script>
 </head>
 <body class="font-sans antialiased">
 <header class="sticky top-0 z-50 border-b border-white/10 bg-zinc-950/95 text-zinc-100 backdrop-blur">
